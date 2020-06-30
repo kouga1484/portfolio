@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kouga's Portfolio Website</title>
+   <!-- jQueryプラグインの読み込み(css) -->
+   <link rel="stylesheet" href="slick/slick.css">
+   <link rel="stylesheet" href="slick/slick-theme.css">
+  <!-- css読み込み -->
+  <link rel="stylesheet" href="css/nomalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- Google Web Font 読み込み -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome 読み込み -->
+  <link href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="contact.html">CONTACT</a></li>
+        <li class="nav-item"><a href="works.html">WORKS</a></li>
+        <li class="nav-item active"><a href="home.html">HOME</a></li>
+      </ul>
+    </nav>
+    <div class="btn-trigger" id="btn01">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav class="nav-sp">
+      <ul class="nav-list">
+        <li class="nav-item active"><a href="home.html">HOME</a></li>
+        <li class="nav-item"><a href="works.html">WORKS</a></li>
+        <li class="nav-item"><a href="contact.html">CONTACT</a></li>
+      </ul>
+      <a href="https://twitter.com/__k_u_g__" target="_blank"><i class="sns-icon fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/__k_u_g__/" target="_blank"><i class="sns-icon fab fa-instagram"></i></a>
+      <small class="copyright">&copy; 2020 Kouga's Portfolio Website</small>
+    </nav>
+  </header>
+
+  <main class="main">
+    <div class="home">
+      <div class="container">
+        <p class="home-sub-title">Web Engineer</p>
+        <h1 class="home-title">Kouga's Portfolio Website</h1>
+        <p class="home-description">Web制作に関することはお気軽にご相談ください。</p>
+        <div class="btn-container">
+          <a class="btn contact-btn" href="contact.html">CONTACT ME<i class="fas fa-chevron-right"></i></a>
+        </div>
+      </div>
+    </div>
+     
+    <div class="about">
+      <div class="container">
+        <p class="sub-heading">自己紹介</p>
+        <h2 class="heading">ABOUT</h2>
+        <div class="contents">
+          <div class="content content-left">
+            <p class="about-text">
+              大阪府出身の21歳。<br>
+              現在は大学で情報学を専攻し、Web制作をしています。
+            </p>
+            <p class="about-text">
+              お客様との繋がりを大切にし、丁寧かつ円滑にコミュニケーションをとることを心掛けております。そして、お客様のご要望を真摯に受け止め、ご満足いただけるよう最善を尽くします。
+            </p>
+            <p class="about-text">
+              もし、ご縁がありましたらよろしくお願いします。
+            </p>
+          </div>
+          <div class="content content-right">
+            <table class="profile">
+              <tr>
+                <th>名前</th>
+                <td><span>：</span>石橋 功雅</td>
+              </tr>
+              <tr>
+                <th>経歴</th>
+                <td><span>：</span>摂南大学 経営学部 経営情報学科 在学中</td>
+              </tr>
+              <tr>
+                <th>業務内容</th>
+                <td><span>：</span>Webサイト制作</td>
+              </tr>
+              <tr>
+                <th>スキル</th>
+                <td><span>：</span>HTML/CSS・Javascript（jQuery）</td>
+              </tr>
+              <tr>
+                <th>メール</th>
+                <td><span>：</span><a href="mailto:kouga.isbs@gmail.com">kouga.isbs@gmail.com</a></td>
+              </tr>
+              <tr>
+                <th>電話番号</th>
+                <td>
+                  <span>：</span><a href="tel:080-6149-7042">080-6149-7042</a><br>
+                  <span class="small-text">※お電話でのお問い合わせ希望の場合は事前にお知らせください。</span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="works">
+      <p class="sub-heading">制作実績</p>
+      <h2 class="heading">WORKS</h2>
+      <div class="sliderWide">
+        <ul class="slider">
+          <li class="work-item">
+            <img src="images/portfolio.png">
+            <a class="works-description" href="works.html#work-1">
+              【※随時更新中】<br>
+              Kouga's Portfolio Website
+            </a>
+          </li>
+          <li class="work-item">
+            <img src="images/iSara.png">
+            <a class="works-description" href="works.html#work-2">
+              【模写制作】<br>
+              iSara[イサラ]｜バンコクのノマドエンジニア育成講座
+            </a>
+          </li>
+          <li class="work-item">
+            <img src="images/Airbnb.png">
+            <a class="works-description" href="works.html#work-3">
+              【※模写制作中】<br>
+              Airbnbでお家、アパート、お部屋をシェアしよう
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="btn-container">
+        <a class="btn works-btn" href="works.html">VIEW MORE<i class="fas fa-chevron-right"></i></a>
+      </div>
+    </div>
+    
+    <div class="service">
+      <div class="container">
+        <p class="sub-heading">サービス内容</p>
+        <h2 class="heading">SERVICE</h2>
+        <div class="contents">
+          <div class="content content-lefttop">
+            <i class="service-icon fas fa-user-friends"></i>
+            <h3 class="service-title">DIRECTION</h3>
+            <p class="service-sub-title">事前準備</p>
+            <p class="service-text">
+              お客様のご要望やコンセプトを事前にヒアリングし、お客様のご意向に沿ったWebサイトを制作します。
+            </p>
+          </div>
+          <div class="content content-rightttop">
+            <i class="service-icon fas fa-laptop-code"></i>
+            <h3 class="service-title">CODING</h3>
+            <p class="service-sub-title">Webサイト制作</p>
+            <p class="service-text">
+              お客様よりお預かりしたデザインをHTMLとCSSにて忠実に再現します。また、Javascriptを使用した動きのあるWebサイトのコーディングも承ります。
+            </p>
+          </div>
+          <div class="content content-leftbottom">
+            <i class="service-icon fas fa-mobile-alt"></i>
+            <h3 class="service-title">RESPONSIVE</h3>
+            <p class="service-sub-title">レスポンシブ対応</p>
+            <p class="service-text">
+              PC、タブレット、スマートフォンなど異なる画面サイズでも、見やすく最適な表示に調整します。
+            </p>
+          </div>
+          <div class="content content-rightbottom">
+            <i class="service-icon fas fa-chart-line"></i>
+            <h3 class="service-title">MAINTENANCE</h3>
+            <p class="service-sub-title">保守・修正</p>
+            <p class="service-text">
+              Webサイトを「作って終わり」にはしません。納品後の修正などのアフターサポートを提供します。お気軽にお申し付けください。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="contact">
+      <div class="container">
+        <p class="sub-heading">ご依頼・お問い合わせ</p>
+        <h2 class="heading">CONTACT</h2>
+        <p class="contact-text">制作のご依頼・ご相談などお気軽にお問い合わせください。</p>
+        <div class="btn-container">
+          <a class="btn contact-btn" href="contact.html">CONTACT ME<i class="fas fa-chevron-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </main>
+    
+  <footer class="footer">
+    <div class="container">
+      <div class="contents">
+        <div class="cntent content-left">
+          <small class="copyright">&copy; 2020 Kouga's Portfolio Website</small>
+        </div>
+        <div class="content content-right">
+          <p class="footer-text">please feel free to follow on</p>
+          <a href="https://twitter.com/__k_u_g__" target="_blank"><i class="sns-icon fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/__k_u_g__/" target="_blank"><i class="sns-icon fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- jQuery(本体)のCDN読み込み -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- jQueryプラグインの読み込み(js) -->
+  <script src="slick/slick.min.js"></script>
+  <!-- jQueryの読み込み -->
+  <script src="js/script.js"></script>
+</body>
+</html>
